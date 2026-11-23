@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>十年之间 · 《人生十年，不可辜负的20岁到30岁》读书页</title>
+  <meta name="description" content="一份关于梅格·杰伊《人生十年》的温暖读书网页：用自己的话概述工作、爱情、大脑与身体，供个人阅读练习。">
+  <!-- 从 Google Fonts 加载中英文字体：衬线正文 + 英文书名 + 无衬线导航 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;600&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-kicker">A reading page</span>
+        <span class="brand-name">十年之间</span>
+      </a>
+      <nav class="nav" aria-label="栏目">
+        <a href="index.html" aria-current="page">首页</a>
+        <a href="work.html">工作</a>
+        <a href="love.html">爱情</a>
+        <a href="mind.html">大脑与身体</a>
+      </nav>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="切换夜间模式">
+          <!-- 一个图标两用：日间看得到月亮，夜间看得到太阳，用 CSS 当前颜色描边 -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6L17 7M7 17l-1.4 1.4"></path>
+          </svg>
+        </button>
+        <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-label="打开菜单" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <!-- 左侧：书名与邀请 -->
+      <div class="reveal">
+        <p class="eyebrow">Meg Jay · 梅格·杰伊</p>
+        <p class="hero-en">The Defining Decade</p>
+        <h1>人生十年</h1>
+        <p class="hero-sub">不可辜负的二十岁到三十岁</p>
+        <p class="hero-meta">
+          <span>陈能顺 译</span>
+          <span>机械工业出版社 · 2022</span>
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="#letter">从一封短信开始</a>
+          <a class="btn" href="work.html">先看「工作」</a>
+        </div>
+      </div>
+
+      <!-- 右侧：原创插画，气质向封面靠拢，但构图是新的，不复制原书封面 -->
+      <div class="hero-art reveal" aria-hidden="true">
+        <svg viewBox="0 0 480 560" xmlns="http://www.w3.org/2000/svg">
+          <!-- 一块像窗口的颜色，向原书封面的青绿色靠近，但构图是新的 -->
+          <rect x="64" y="44" width="292" height="228" rx="10" fill="#7ad4cf" opacity="0.84"></rect>
+
+          <!-- 向三十岁方向飞去的鸟 -->
+          <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M318 88c24-9 52-6 76 10-22 1-40 9-51 22-9-13-17-24-25-32z"></path>
+            <path d="M346 106c14 1 30 0 46-7"></path>
+          </g>
+
+          <!-- 走在 20—30 这条线上的人：侧向迈步，比火柴人更完整一些 -->
+          <g fill="none" stroke="currentColor" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M232 162c-20 2-34 18-32 36 2 8 8 16 16 20 6-18 22-28 40-30 6-14-6-28-24-26z" fill="currentColor" fill-opacity="0.08"></path>
+            <ellipse cx="250" cy="198" rx="17" ry="19"></ellipse>
+            <path d="M250 217v16"></path>
+            <path d="M228 236c-12 8-20 28-16 62 18 6 44 6 64-2 6-32-2-54-16-64-8-6-20-6-32 4z" fill="#7ad4cf" fill-opacity="0.32"></path>
+            <path d="M230 248c-18 16-28 34-30 54"></path>
+            <path d="M270 250c16 8 26 24 28 42"></path>
+            <path d="M242 314c-10 30-22 58-40 86"></path>
+            <path d="M202 400h-18"></path>
+            <path d="M258 314c14 26 32 54 50 84"></path>
+            <path d="M308 398h20"></path>
+          </g>
+
+          <!-- 脚下的十年刻度 -->
+          <line x1="36" y1="414" x2="444" y2="414" stroke="currentColor" stroke-width="1.2" opacity="0.5"></line>
+          <g fill="currentColor" opacity="0.55">
+            <circle cx="36" cy="414" r="3"></circle>
+            <circle cx="118" cy="414" r="2"></circle>
+            <circle cx="200" cy="414" r="2"></circle>
+            <circle cx="282" cy="414" r="2"></circle>
+            <circle cx="364" cy="414" r="2"></circle>
+            <circle cx="444" cy="414" r="3"></circle>
+          </g>
+          <g font-family="Fraunces, Georgia, serif" fill="currentColor">
+            <text x="28" y="448" font-size="28">20</text>
+            <text x="412" y="448" font-size="28">30</text>
+          </g>
+          <text x="36" y="508" fill="currentColor" font-family="Noto Serif SC, serif" font-size="16" letter-spacing="4">走在这十年里</text>
+          <text x="36" y="534" fill="currentColor" opacity="0.5" font-family="Outfit, sans-serif" font-size="11" letter-spacing="2">WORK · LOVE · MIND &amp; BODY</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" id="letter">
+      <div class="narrow">
+        <article class="letter reveal">
+          <p>你好，这不是原书本身，是一份读完之后做成的练习网页。</p>
+          <p>梅格·杰伊是临床心理学家。她花二十多年，和二十多岁的人坐在咨询室里谈话，后来写成这本书。流行文化常说「三十岁才是新的二十岁」，好像这十年可以先拿来挥霍，真正的人生还在后头。她并不这样看。她认为，二十多岁是成年里极为关键、也常常最为难挨的十年——不是要你焦虑地加速，而是提醒你：别在最能给未来塑形的时候，把自己睡过去。</p>
+          <p>下面的文字都是改写概述，不是书里的原文。个案故事我没有照搬。若某一章戳到你，最好还是去翻原书，作者写得比任何摘要都更具体、也更有温度。</p>
+          <p class="signed">—— 一份给人慢慢看的读书笔记</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="narrow">
+        <div class="letter fact reveal">
+          <div class="fact-num">80%</div>
+          <div>
+            <h2 class="section-title" style="font-size:28px;letter-spacing:0.08em;">最具决定性的时刻，多半发生在三十五岁之前</h2>
+            <p>书中讨论一项关于人生故事的研究：那些事后看来真正改变轨迹的经历，八成发生在三十五岁以前。它们当时往往不起眼——回的一个电话，接下的一份工作，认真谈过的一次话。三十岁之后，生活当然还会变，但更多是在已经铺好的轨道上调整。</p>
+            <p>这十年的起止，也不必卡死在刚好二十到三十。对有的人，它是二十二到三十二，或二十五到三十五。要点只有一句：你很可能正走在自己最要紧的那段路上。</p>
+            <small>研究来源：Mackavey, Malley, Stewart，《Psychology and Aging》（1991）。书中作者按十年重新汇总了原数据。此处仅为转述，细节以原书为准。</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:12px;">
+      <div class="wrap">
+        <h2 class="section-title">三个入口</h2>
+        <p class="section-lead">原书分成工作、爱情、大脑与身体。可以从你此刻最在意的那一扇门走进去，不必按顺序。</p>
+        <div class="part-grid">
+          <a class="part-card work reveal" href="work.html">
+            <span class="n">01 — WORK</span>
+            <h3>工作</h3>
+            <p>身份不是想清楚才开始积累的。技能、履历、一次认真做过的事，以及你认识但不熟的人，都会在后来变成可以兑换的东西。</p>
+            <span class="more">六章概述 →</span>
+          </a>
+          <a class="part-card love reveal" href="love.html">
+            <span class="n">02 — LOVE</span>
+            <h3>爱情</h3>
+            <p>亲密关系不该一直留在「以后再说」。选择伴侣，某种意义上也是在选择自己将要进入的那个家庭，以及自己在爱里如何被对待。</p>
+            <span class="more">六章概述 →</span>
+          </a>
+          <a class="part-card mind reveal" href="mind.html">
+            <span class="n">03 — MIND &amp; BODY</span>
+            <h3>大脑与身体</h3>
+            <p>负责规划未来的大脑，二十多岁仍在发育。自信常常从做成一件外面的事长出来；身体和生育的时间表，也值得被认真了解，而不是假装无限。</p>
+            <span class="more">七章概述 →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:8px;">
+      <div class="narrow">
+        <h2 class="section-title">如果你愿意</h2>
+        <p class="section-lead">年龄只用来生成一句私人提示，存在这台电脑的浏览器里，不会上传。</p>
+        <div class="note-box">
+          <div class="age-row">
+            <span>我现在</span>
+            <input data-age type="number" min="1" max="99" inputmode="numeric" aria-label="年龄（可选）" placeholder="—">
+            <span>岁。</span>
+          </div>
+          <p class="age-msg" data-age-msg></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="narrow">
+      <p>本页是个人网页练习，各章说明均为改写概述，不是原书正文，也不能替代阅读原书。</p>
+      <p>书名《人生十年，不可辜负的20岁到30岁》，作者梅格·杰伊（Meg Jay），译者陈能顺，机械工业出版社，2022。英文原著 <i>The Defining Decade</i>。请支持正版。</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
